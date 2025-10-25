@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Lifestyle Guide</title>
+</head>
+<body>
+    <header>
+        <h1>Your Guide to a Healthy Lifestyle</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Nutrition</h2>
+            <p>Maintaining a balanced diet is crucial for overall health. Focus on whole foods, vegetables, fruits, and lean proteins.</p>
+            <img src="images/healthy-food.jpg" alt="Healthy Food" width="300">
+            
+            <h3>Daily Calorie Guide</h3>
+            <table border="1">
+                <tr>
+                    <th>Activity Level</th>
+                    <th>Women</th>
+                    <th>Men</th>
+                </tr>
+                <tr>
+                    <td>Sedentary</td>
+                    <td>1800-2000</td>
+                    <td>2200-2400</td>
+                </tr>
+                <tr>
+                    <td>Moderately Active</td>
+                    <td>2000-2200</td>
+                    <td>2400-2600</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Exercise</h2>
+            <p>Regular physical activity improves both physical and mental health.</p>
+            <img src="images/exercise.jpg" alt="Exercise" width="300">
+            <img src="https://example.com/fitness-image.jpg" alt="Fitness" width="300">
+
+            <h3>Exercise Tips</h3>
+            <ul>
+                <li>Exercise at least 30 minutes daily</li>
+                <li>Include both cardio and strength training</li>
+                <li>Stay hydrated during workouts</li>
+                <li>Always warm up before exercise</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Sleep</h2>
+            <p>Quality sleep is essential for recovery and maintaining good health. Aim for 7-9 hours per night.</p>
+        </section>
+
+        <section>
+            <h2>Useful Resources</h2>
+            <ul>
+                <li><a href="https://www.who.int/health-topics/nutrition">WHO Nutrition Guidelines</a></li>
+                <li><a href="https://www.cdc.gov/physicalactivity/">CDC Physical Activity</a></li>
+                <li><a href="https://www.sleepfoundation.org/">Sleep Foundation</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Newsletter Signup</h2>
+            <form action="/subscribe" method="POST">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="interests">Interests:</label>
+                    <select id="interests" name="interests">
+                        <option value="nutrition">Nutrition</option>
+                        <option value="exercise">Exercise</option>
+                        <option value="sleep">Sleep</option>
+                    </select>
+                </div>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Healthy Lifestyle Guide. All rights reserved.</p>
+    </footer>
+</body>
+</html>
